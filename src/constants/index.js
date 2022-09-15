@@ -90,23 +90,26 @@ export const access = {
     image: g,
 }
 
-export const testimonials = [
+export const testimonials = {
+    subtitle: "testimonials",
+    title: "Read what others have to say",
+    content: [
     {
         id: "feedback-1",
         img: a,
         name: "Name1",
-        quote: "lorem ipsum",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. ",
     },
     {
         id: "feedback-2",
         img: b,
         name: "Name2",
-        quote: "lorem ipsum",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. ",
     },
     {
         id: "feedback-3",
         img: c,
         name: "Name3",
-        quote: "lorem ipsum",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. ",
     },
-]
+]};
