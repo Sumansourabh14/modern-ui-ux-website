@@ -5,5 +5,6 @@ import Analytics from './Analytics';
 import GetApp from './GetApp';
 import Access from './Access';
 import Testimonials from './Testimonials';
+import CTA from './CTA';
 
-export { Navbar, Hero, Clients, Analytics, GetApp, Access, Testimonials };
+export { Navbar, Hero, Clients, Analytics, GetApp, Access, Testimonials, CTA };

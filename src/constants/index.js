@@ -113,3 +113,9 @@ export const testimonials = {
         quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. ",
     },
 ]};
+
+export const cta = {
+    subtitle: "Are your ready",
+    title: "Be a part of the next big thing",
+    buttonText: "Get started",
+}
