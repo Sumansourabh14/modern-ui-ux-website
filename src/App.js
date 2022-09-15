@@ -1,12 +1,28 @@
 import styles from "./style";
-import { Navbar } from "./components";
+import { Navbar, Hero, Clients } from "./components";
 
 function App() {
   return (
-    <main>
-      <div>
-        <Navbar />
+    <main className="bg-primary w-full overflow-hidden">
+
+      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
       </div>
+
+      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
+      </div>
+
+      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Clients />
+        </div>
+      </div>
+
     </main>
   );
 }

@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-function Button() {
-  return (
-    <div>Button</div>
-  )
+function Button(props) {
+    return (
+      <button 
+        className='bg-secondary py-3 px-8 rounded-full font-semibold uppercase'
+      >
+        {props.buttonText}
+      </button>
+    )
 }
 
-export default Button
+export default Button;
