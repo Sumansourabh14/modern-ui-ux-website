@@ -8,7 +8,7 @@ function Clients() {
             <ul className='bg-secondary bg-opacity-20 py-4 px-8 grid grid-cols-2 justify-between items-center sm:flex rounded-2xl'>
                 {clientsContent.map(client => {
                     return (
-                        <div className='opacity-90'>
+                        <div key={client.id} className='opacity-90'>
                             <img src={client.image} />
                         </div>
                     )

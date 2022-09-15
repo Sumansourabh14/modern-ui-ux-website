@@ -11,7 +11,7 @@ function Testimonials() {
                 {testimonials.content.map((testimonial, index) => (
                     <li 
                         key={testimonial.id} 
-                        className={`bg-secondary bg-opacity-40 p-6 rounded-xl mb-10 md:mb-0 ${index === testimonial.length - 1 ? "md:mr-0" : "md:mr-10" }`}
+                        className={`bg-secondary bg-opacity-30 p-6 rounded-xl mb-10 md:mb-0 ${index === testimonial.length - 1 ? "md:mr-0" : "md:mr-10"}`}
                     >
                         <img 
                             src={testimonial.img} 

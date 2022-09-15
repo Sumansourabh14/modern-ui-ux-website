@@ -119,3 +119,65 @@ export const cta = {
     title: "Be a part of the next big thing",
     buttonText: "Get started",
 }
+
+export const footerContent = [
+    {
+        title: "krypto",
+        list: [
+            {
+                name: "Home",
+                link: "#",
+            },
+            {
+                name: "About",
+                link: "#",
+            },
+            {
+                name: "Buy NFTs",
+                link: "#",
+            },
+            {
+                name: "Contact",
+                link: "#",
+            },
+        ]
+    },
+    {
+        title: "market",
+        list: [
+            {
+                name: "Browse NFTs",
+                link: "#",
+            },
+            {
+                name: "Buy NFTs",
+                link: "#",
+            },
+            {
+                name: "Sell NFTs",
+                link: "#",
+            },
+        ]
+    },
+    {
+        title: "contact",
+        list: [
+            {
+                name: "Email",
+                link: "#",
+            },
+            {
+                name: "LinkedIn",
+                link: "#",
+            },
+            {
+                name: "Instagram",
+                link: "#",
+            },
+            {
+                name: "Twitter",
+                link: "#",
+            },
+        ]
+    },
+]

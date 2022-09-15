@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, Hero, Clients, Analytics, GetApp, Access, Testimonials, CTA } from "./components";
+import { Navbar, Hero, Clients, Analytics, GetApp, Access, Testimonials, CTA, Footer } from "./components";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
           <Access />
           <Testimonials />
           <CTA />
+          <Footer />
         </div>
       </div>
 
