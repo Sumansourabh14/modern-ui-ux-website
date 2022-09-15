@@ -4,9 +4,9 @@ import Button from './Button';
 
 function Hero() {
     return (
-        <section className='text-white flex flex-col text-center justify-center sm:justify-between items-center sm:flex-row sm:text-left py-6 sm:py-[120px]'>
+        <section id='home' className='text-white flex flex-col text-center justify-center sm:justify-between items-center sm:flex-row sm:text-left py-6 sm:py-[120px]'>
             <div className='mb-10 sm:mb-0 max-w-[600px]'>
-                <h1 className='font-outfit text-6xl md:text-7xl font-bold mb-5'>{heroContent.title}</h1>
+                <h1 className='font-outfit text-6xl md:text-7xl lg:text-8xl font-bold mb-5'>{heroContent.title}</h1>
                 <p className='mb-5'>{heroContent.body}</p>
                 <div className=''>
                     <Button buttonText={heroContent.buttonText1} />
