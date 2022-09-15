@@ -31,7 +31,7 @@ function Footer() {
                     <h3 className='font-bold font-outfit text-xl mb-5'>Join Our Newsletter</h3>
                     <input 
                         placeholder='Email Address' 
-                        className='py-2 px-4 font-outfit bg-secondary bg-opacity-60 text-gray-200 outline-none rounded-full' 
+                        className='py-2 px-4 font-outfit bg-secondary bg-opacity-25 text-gray-200 outline-none rounded-full' 
                     />
                     <Button 
                         buttonText="submit" 
@@ -40,7 +40,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='text-center pt-10'>
+            <div className='text-center pt-10 text-sm text-gray-400'>
                 <p>© 2022 Krypto</p>
                 <p>Designed and built by Suman Sourabh</p>
             </div>
