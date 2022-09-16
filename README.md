@@ -1,73 +1,46 @@
-# Getting Started with Create React App
+<img src="./src/assets/krypto-large-screens.jpeg">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [Krypto](https://krypto-website.netlify.app/) - A Modern UI/UX Website
 
-## Available Scripts
+This website is designed with [Figma](https://www.figma.com/) and built with [React](https://reactjs.org/) and [Tailwind CSS](https://tailwindcss.com/) by Suman Sourabh.
 
-In the project directory, you can run:
+## Motivation
 
-### `npm start`
+I wanted to build this project to showcase my skills around designing a website in Figma from scratch and then converting it into a coded website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
-### `npm test`
+### Code Editor Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-### `npm run build`
+## About
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This website makes use of React and JavaScript ES6 fundamental concepts such as
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Components
+- Props
+- State
+- Import/Export
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- Responsiveness
+- Background color gradients
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./src/assets/krypto-mobile-screens.jpeg" alt="Website in mobile screens">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Helpful Links
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Live website](https://krypto-website.netlify.app/)
+- [Figma design](https://www.figma.com/file/TduSS7r7Fit8FnArBDmCdg/Krypto-Website-Design-v1---Figma?node-id=0%3A1)
+- [Angry Tools](https://angrytools.com/gradient/) - For making color gradients
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-Figma Link: https://www.figma.com/file/TduSS7r7Fit8FnArBDmCdg/Krypto-Website-Design-v1---Figma?node-id=0%3A1
+Built by [Suman Sourabh](https://sumansourabh.netlify.app/) - 2022
