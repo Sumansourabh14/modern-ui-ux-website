@@ -7,19 +7,19 @@ function Testimonials() {
             <p className='uppercase font-semibold mb-5 opacity-80'>{testimonials.subtitle}</p>
             <h2 className='font-outfit text-6xl font-bold mb-14 capitalize'>{testimonials.title}</h2>
 
-            <ul className='grid grid-cols-1 md:grid-cols-3'>
+            <ul className='grid grid-cols-1 md:grid-cols-3 mt-32'>
                 {testimonials.content.map((testimonial, index) => (
                     <li 
                         key={testimonial.id} 
-                        className={`bg-secondary bg-opacity-30 p-6 rounded-xl mb-10 md:mb-0 ${index === testimonial.length - 1 ? "md:mr-0" : "md:mr-10"}`}
+                        className={`bg-secondary hover:bg-opacity-60 duration-200 hover:scale-105 relative bg-opacity-30 p-6 rounded-xl mb-20 md:mb-0 ${index === testimonial.length - 1 ? "md:mr-0" : "md:mr-10"}`}
                     >
                         <img 
                             src={testimonial.img} 
-                            className="mx-auto w-[125px] h-[125px] rounded-full opacity-50"
+                            className="mx-auto w-[125px] h-[125px] rounded-full absolute left-0 right-0 -top-16"
                             alt={testimonial.name} 
                         />
-                        <h3 className='uppercase font-semibold my-5'>{testimonial.name}</h3>
-                        <p className='text-sm'>{testimonial.quote}</p>
+                        <h3 className='uppercase font-semibold my-5 mt-16'>{testimonial.name}</h3>
+                        <p className='text-sm max-w-[500px] mx-auto'>"{testimonial.quote}"</p>
                     </li>
                 ))}
             </ul>

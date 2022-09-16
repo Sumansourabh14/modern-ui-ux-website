@@ -10,10 +10,14 @@ function Hero() {
                 <p className='mb-5'>{heroContent.body}</p>
                 <div className='flex justify-between items-center w-[330px] mx-auto sm:mx-0'>
                     <Button buttonText={heroContent.buttonText1} />
-                    <Button buttonText={heroContent.buttonText2} customClasses="bg-transparent border-2 border-secondary" />
+                    <Button buttonText={heroContent.buttonText2} customClasses="bg-transparent border border-secondary hover:bg-secondary duration-150" />
                 </div>
             </div>
-            <img className='w-[311px] h-[331px] xl:w-[411px] xl:h-[431px]' src={heroContent.image} alt={heroContent.title} />
+            <img 
+                className='w-[311px] h-[331px] xl:w-[411px] xl:h-[431px]' 
+                src={heroContent.image} 
+                alt={heroContent.title} 
+            />
         </section>
     )
 }

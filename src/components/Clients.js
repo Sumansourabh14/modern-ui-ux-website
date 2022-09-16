@@ -12,6 +12,7 @@ function Clients() {
                             <img 
                                 src={client.image} 
                                 alt={client.altText}
+                                className="hover:scale-105 duration-200"
                             />
                         </div>
                     )

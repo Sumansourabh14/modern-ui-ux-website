@@ -4,7 +4,7 @@ import Button from './Button';
 
 function GetApp() {
     return (
-        <section id='download' className='py-20 text-white flex flex-col items-center sm:flex-row sm:justify-between'>
+        <section id='download' className='py-16 text-white flex flex-col items-center sm:flex-row sm:justify-between'>
 
             <div className='mb-10 sm:mb-0 max-w-[600px] text-center sm:text-left'>
                 <p className='uppercase font-semibold mb-5 opacity-80'>{getApp.subtitle}</p>

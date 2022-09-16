@@ -4,7 +4,7 @@ import Button from './Button';
 
 function Analytics() {
     return (
-        <section id='pricing' className='py-20 text-white flex flex-col items-center sm:flex-row-reverse sm:justify-between'>
+        <section id='pricing' className='py-16 text-white flex flex-col items-center sm:flex-row-reverse sm:justify-between'>
 
             <div className='mb-10 sm:mb-0 max-w-[600px] text-center sm:text-left'>
                 <p className='uppercase font-semibold mb-5 tracking-wide opacity-80'>{analytics.subtitle}</p>

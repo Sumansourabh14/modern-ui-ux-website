@@ -40,9 +40,9 @@ function Footer() {
                 </div>
             </div>
 
-            <div className='text-center pt-10 text-sm text-gray-400'>
+            <div className='text-center pt-16 text-sm text-gray-400'>
                 <p>© 2022 Krypto</p>
-                <p>Designed and built by Suman Sourabh</p>
+                <p>Designed and built by <a href='https://github.com/Sumansourabh14' className='text-slate-100'>Suman Sourabh</a></p>
             </div>
 
         </footer>
