@@ -11,7 +11,7 @@ function Testimonials() {
                 {testimonials.content.map((testimonial, index) => (
                     <li 
                         key={testimonial.id} 
-                        className={`bg-secondary hover:bg-opacity-60 duration-200 hover:scale-105 relative bg-opacity-30 p-6 rounded-xl mb-20 md:mb-0 ${index === testimonial.length - 1 ? "md:mr-0" : "md:mr-10"}`}
+                        className={`bg-secondary hover:bg-opacity-60 duration-200 hover:scale-105 shadow-xl relative bg-opacity-30 py-6 px-10 rounded-xl mb-20 md:mb-0 md:mr-6`}
                     >
                         <img 
                             src={testimonial.img} 
