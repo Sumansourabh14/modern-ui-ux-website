@@ -8,14 +8,15 @@ function App() {
       <div className={`${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
-        </div>
-      </div>
-
-      <div className={`${styles.flexCenter} ${styles.paddingX}`}>
-        <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
       </div>
+
+      {/* <div className={`${styles.flexCenter} ${styles.paddingX}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
+      </div> */}
 
       <div className={`${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth}`}>

@@ -1,4 +1,4 @@
-// Importing static texts to be displayed on the website.
+// Static texts to be displayed on the website.
 
 import a from '../assets/a.png';
 import b from '../assets/b.png';
@@ -37,7 +37,7 @@ export const navLinks = [
 
 export const heroContent = {
     id: 1,
-    title: "Discover and collect rare nfts",
+    title: "Discover and collect rare NFTs",
     body: "The most secure marketplace for buying and selling unique crypto assets.",
     buttonText1: "Buy Nfts",
     buttonText2: "Sell Nfts",
@@ -48,46 +48,50 @@ export const clientsContent = [
     {
         id: 1,
         image: logo1,
+        altText: "Fast Company",
     },
     {
         id: 2,
         image: logo2,
+        altText: "Tech Crunch",
     },
     {
         id: 3,
         image: logo3,
+        altText: "MIT",
     },
     {
         id: 4,
         image: logo4,
+        altText: "Forbes",
     },
 ];
 
 export const analytics = {
     id: 1,
     subtitle: "analytics",
-    title: "Built-in analytics to track your nfts",
+    title: "Built-in analytics to track your NFTs",
     body: "Use our built-in analytics dashboard to pull valuable insights and monitor the value of your Krypto portfolio over time.",
     buttonText: "View our pricing",
-    image: e,
+    image: g,
 }
 
 export const getApp = {
     id: 1,
     subtitle: "get our app",
-    title: "Discover and collect rare nfts",
-    body: "The most secure marketplace for buying and selling unique crypto assets.",
-    buttonText: "Buy Nfts",
+    title: "Browse NFTs from your smartphone",
+    body: "Our Krypto app is the easiest way to keep track of your assets when you’re on the go.",
+    buttonText: "download on ios",
     image: f,
 }
 
 export const access = {
     id: 1,
     subtitle: "24/7 access",
-    title: "Discover and collect rare nfts",
-    body: "The most secure marketplace for buying and selling unique crypto assets.",
-    buttonText: "Buy Nfts",
-    image: g,
+    title: "sell your NFTs from anywhere at anytime",
+    body: "Use our built-in analytics dashboard to pull valuable insights and monitor the value of your Krypto portfolio over time.",
+    buttonText: "get started",
+    image: e,
 }
 
 export const testimonials = {
@@ -97,25 +101,25 @@ export const testimonials = {
     {
         id: "feedback-1",
         img: a,
-        name: "Name1",
+        name: "Olivia Cole",
         quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. ",
     },
     {
         id: "feedback-2",
         img: b,
-        name: "Name2",
+        name: "Evan White",
         quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. ",
     },
     {
         id: "feedback-3",
         img: c,
-        name: "Name3",
+        name: "Jessica Page",
         quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. ",
     },
 ]};
 
 export const cta = {
-    subtitle: "Are your ready",
+    subtitle: "Are your ready?",
     title: "Be a part of the next big thing",
     buttonText: "Get started",
 }

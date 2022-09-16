@@ -16,7 +16,7 @@ function Navbar() {
         <ul className="hidden sm:flex">
             {navLinks.map((nav, index) => {
                 return (
-                    <li key={nav.id}>
+                    <li key={nav.id} className="capitalize hover:opacity-60 duration-100">
                         <a 
                             href={`#${nav.id}`} 
                             className={index === navLinks.length - 1 ? "mr-0" : "mr-10"}
@@ -32,13 +32,13 @@ function Navbar() {
                 src={toggle ? close : menu} 
                 onClick={handleToggle} 
                 alt="menu" 
-                className='w-[30px] h-[30px] object-contain cursor-pointer'
+                className='w-[30px] h-[30px] object-contain cursor-pointer hover:opacity-60 duration-100'
             />
             <div className={`${toggle ? "flex" : "hidden"} p-6 absolute top-20 right-0 left-0 bg-blue-900 mx-0 my-2 bg-opacity-95 `}>
                 <ul className="list-none flex justify-end items-start flex-1 flex-col">
                     {navLinks.map((nav, index) => {
                         return (
-                            <li key={nav.id}>
+                            <li key={nav.id} className="capitalize hover:opacity-60 duration-100">
                                 <a
                                     href={`#${nav.id}`}
                                     className={index === navLinks.length - 1 ? "mb-0" : "mb-2"}

@@ -3,9 +3,9 @@ import { testimonials } from '../constants';
 
 function Testimonials() {
     return (
-        <section className='text-white text-center py-10'>
-            <p className='uppercase font-semibold mb-5'>{testimonials.subtitle}</p>
-            <h2 className='font-outfit text-6xl font-bold mb-14'>{testimonials.title}</h2>
+        <section className='text-white text-center py-20'>
+            <p className='uppercase font-semibold mb-5 opacity-80'>{testimonials.subtitle}</p>
+            <h2 className='font-outfit text-6xl font-bold mb-14 capitalize'>{testimonials.title}</h2>
 
             <ul className='grid grid-cols-1 md:grid-cols-3'>
                 {testimonials.content.map((testimonial, index) => (
@@ -15,7 +15,7 @@ function Testimonials() {
                     >
                         <img 
                             src={testimonial.img} 
-                            className="mx-auto w-[125px] h-[125px] rounded-full bg-blend-luminosity"
+                            className="mx-auto w-[125px] h-[125px] rounded-full opacity-50"
                             alt={testimonial.name} 
                         />
                         <h3 className='uppercase font-semibold my-5'>{testimonial.name}</h3>

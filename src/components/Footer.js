@@ -12,11 +12,11 @@ function Footer() {
                     {footerContent.map((item, index) => {
                         return (
                             <div className="mx-4">
-                                <h4 className='font-semibold font-outfit mb-5'>{item.title}</h4>
+                                <h4 className='font-semibold font-outfit mb-5 capitalize'>{item.title}</h4>
                                 <ul>
                                     {item.list.map((innerItem, index) => {
                                         return (
-                                            <li key={innerItem.name}>
+                                            <li key={innerItem.name} className="opacity-80 hover:opacity-100 duration-100">
                                                 <a href={innerItem.link}>{innerItem.name}</a>
                                             </li>
                                         )
